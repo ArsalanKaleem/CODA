@@ -1,0 +1,25 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# manuscript and internal notes (kept out of this repository)
+docs/paper/
+docs/manuscript_skeleton.md
+docs/status_and_framing.md
+12_build_manuscript.py
+
+# data: only small village-level files are versioned; cell-level files and road graphs are regenerated
+data/*
+!data/b1_village_recovery.parquet
+!data/b2_towns.parquet
+!data/b2_village_market.parquet
+!data/b2_village_market_major.parquet
+!data/b2_village_market_flood.parquet
+!data/b2_village_taluka.parquet
+!data/b2_talukas.gpkg
+
+# logs: keep per-script environment records, drop run output
+logs/*
+!logs/*.env.json
+logs/12_build_manuscript.env.json
