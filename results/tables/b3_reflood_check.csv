@@ -1,0 +1,9 @@
+check,value
+"2022 rule vs treated_t3, agreement (all cells)",0.9725234058875328
+2022 rule flagged share,0.15311115072869338
+treated_t3 share,0.15837668757394532
+2025 flagged share (all cells),0.033979280004465984
+"2025 flagged share, matched treated",0.18126407995700253
+"2025 flagged share, matched controls",0.008622365547131406
+matched pairs with either member flagged 2025,0.18841126625270163
+cells with no observed pixels 2025,0.0
